@@ -1,0 +1,25 @@
+{
+  "name": "community-success-awareness-gamifier",
+  "version": "0.1.0",
+  "description": "A Web Component for the community success awareness gamifier service.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwth-acis/community-success-awareness-gamifier-web-component.git"
+  },
+  "keywords": [],
+  "author": "Martin Hug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwth-acis/community-success-awareness-gamifier-web-component/issues"
+  },
+  "homepage": "https://github.com/rwth-acis/community-success-awareness-gamifier-web-component#readme"
+}

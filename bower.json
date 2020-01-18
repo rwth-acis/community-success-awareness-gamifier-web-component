@@ -1,0 +1,27 @@
+{
+  "name": "community-success-awareness-gamifier",
+  "version": "0.1.0",
+  "authors": [
+    "Martin Hug <hug@dbis.rwth-aachen.de>"
+  ],
+  "description": "A Web Component for the community success awareness gamifier service.",
+  "main": "community-success-awareness-gamifier.html",
+  "homepage": "https://github.com/rwth-acis/community-success-awareness-gamifier-web-component",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
+  }
+}
