@@ -1,5 +1,7 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../openidconnect-signin/openidconnect-signin.html">
+<link rel="import" href="../requirements-grid/requirements-grid.html">
 
 <dom-module id="community-success-awareness-gamifier">
 
@@ -14,7 +16,20 @@
     </style>
 
     <!-- local DOM goes here -->
-    <span>Not much here yet.</span>
+    <h1>Community Success Awareness Gamifier</h1>
+
+    <openidconnect-signin id="openidconnectSignin" scopes="openid email profile"
+                          client-id=""
+                          server="https://api.learning-layers.eu/o/oauth2"
+                          is-authorized="{{_authorized}}"
+                          on-openidconnect-signin-aware-success="_handleSigninSuccessApp"
+                          on-openidconnect-signin-aware-signed-out="_handleSignedOut"></openidconnect-signin>
+
+    <requirements-grid base-url="https://requirements-bazaar.org/beta/bazaar/"
+                       project-id="1"
+                       page="0"
+                       per-page="4">
+    </requirements-grid>
   </template>
 
   <script>

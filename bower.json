@@ -18,7 +18,9 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^1.6.0",
     "iron-icon": "PolymerElements/iron-icon#^1.0.0",
-    "iron-icons": "PolymerElements/iron-icons#^1.0.0"
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "openidconnect-signin": "rwth-acis/openidconnect-signin#update-signin",
+    "requirements-grid": "rwth-acis/requirements-grid#~1.5.2"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
